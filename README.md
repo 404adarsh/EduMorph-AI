@@ -47,7 +47,7 @@ Designed for schools and self learners.
 Clone repository
 
 ```bash
-git clone https://github.com/yourusername/edumorph-ai.git
+git clone https://github.com/404adarsh/edumorph-ai.git
 
 cd edumorph-ai
 ```
