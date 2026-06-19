@@ -1,16 +1,122 @@
-# React + Vite
+# 📚 EduMorph AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Transform boring PDFs into exam-ready study materials using AI.
 
-Currently, two official plugins are available:
+EduMorph AI helps students convert textbooks, notes and educational PDFs into:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* 📖 Detailed Notes
+* 📝 Exam Ready Answers
+* 🔥 Revision Notes
+* 🧠 Flashcards
+* ❓ MCQs
+* 🗺️ Mind Maps
+* 📄 Exportable PDFs
 
-## React Compiler
+Built with React, Vite and Sarvam AI.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### AI Study Modes
+
+* Deep Notes
+* Teacher Explanation
+* Exam Ready Answers
+* One Day Before Exam
+* Flashcards
+* MCQs
+* Mind Maps
+
+### Workspace
+
+Save generated content locally.
+
+### Export
+
+Download notes as PDFs.
+
+### Student Friendly UI
+
+Designed for schools and self learners.
+
+---
+
+## Installation
+
+Clone repository
+
+```bash
+git clone https://github.com/yourusername/edumorph-ai.git
+
+cd edumorph-ai
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run project
+
+```bash
+npm run dev
+```
+
+---
+
+## Setup
+
+On first launch, add your Sarvam AI API key.
+
+Get API key:
+
+https://sarvam.ai
+
+---
+
+## Tech Stack
+
+Frontend:
+
+* React
+* Vite
+
+Libraries:
+
+* pdfjs-dist
+* jspdf
+
+AI:
+
+* Sarvam AI
+
+Storage:
+
+* LocalStorage
+
+---
+
+## Future Roadmap
+
+* Multi AI support
+* Google Drive integration
+* Cloud sync
+* Student analytics
+* Teacher mode
+* Mobile app
+
+---
+
+## Contributing
+
+Contributions are welcome.
+
+Fork repository and submit pull requests.
+
+---
+
+## License
+
+MIT License
